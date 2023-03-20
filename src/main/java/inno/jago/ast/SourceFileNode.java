@@ -1,19 +1,26 @@
 package inno.jago.ast;
 
-import lombok.AllArgsConstructor;
+import inno.jago.ast.declaration.TopLevelDeclarationNode;
+import inno.jago.ast.entity.Entity;
 import lombok.Getter;
 import lombok.Setter;
 
-@AllArgsConstructor
+import java.util.List;
+
+/*
+sourceFile          :   packageClause ( END ) ( importDecl ( END ) )* ( topLevelDecl ( END ) )* EOF;
+ */
+@Getter
+@Setter
 public class SourceFileNode extends Entity {
 
     @Getter
     @Setter
     private PackageNode packageNode;
 
-//    private List<ImportNode>
+    private List<ImportNode> imports;
 
-//    private List<r>
+    private List<TopLevelDeclarationNode> topLevelDeclarations;
 
-//    packageClause ( END ) ( importDecl ( END ) )* ( topLevelDecl ( END ) )* EOF;
+    // todo: add constructor base on optionality
 }

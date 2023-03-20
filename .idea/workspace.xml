@@ -4,16 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df754594-5f64-4adf-91c7-b22bff231e24" name="Changes" comment="chore: add tokencode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/lexer/Token.java" afterDir="false" />
+    <list default="true" id="df754594-5f64-4adf-91c7-b22bff231e24" name="Changes" comment="chore: fixes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/BlockNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/MethodSpecNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/ResultNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/SignatureNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/TypeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/constant/ConstDeclarationNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/constant/ConstSpecNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/declaration/DeclarationNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/declaration/FunctionDeclarationNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/declaration/MethodDeclarationNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/declaration/TopLevelDeclarationNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/declaration/TypeDeclarationNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/declaration/VarDeclarationNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/expression/BinaryExpressionNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/expression/ExpressionListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/expression/ExpressionNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/expression/UnaryExpressionNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/parameter/ParameterDeclarationNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/parameter/ParametersNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/ast/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/BuildAstVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/visitor/BuildAstVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/ast/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/entity/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/ast/ImportNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/ImportNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/ast/PackageNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/PackageNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/ast/Pos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/lexer/Pos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/ast/SourceFileNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/SourceFileNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/ast/Span.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/lexer/Span.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/ast/TokenCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/lexer/TokenCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/lexer/Pos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/lexer/Pos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/lexer/Span.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/lexer/Span.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/lexer/TokenCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/lexer/TokenCode.java" afterDir="false" />
+    </list>
+    <list id="01ab3348-e718-42e3-89b9-5c210c11c931" name="Changes by art22m" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/ast/PackageNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/PackageNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/ast/SourceFileNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/SourceFileNode.java" afterDir="false" />
+    </list>
+    <list id="1fa1b05c-4740-4622-bbe8-90ef32bab5c3" name="Changes by lebro" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/ast/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/entity/Entity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +57,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/inno/jago/ast/PackageNode.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="3" changelist="df754594-5f64-4adf-91c7-b22bff231e24" />
+        <range start1="6" end1="6" start2="7" end2="11" changelist="df754594-5f64-4adf-91c7-b22bff231e24" />
+        <range start1="7" end1="10" start2="12" end2="15" changelist="01ab3348-e718-42e3-89b9-5c210c11c931" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/inno/jago/ast/entity/Entity.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="1" changelist="df754594-5f64-4adf-91c7-b22bff231e24" />
+        <range start1="5" end1="5" start2="5" end2="6" changelist="df754594-5f64-4adf-91c7-b22bff231e24" />
+        <range start1="30" end1="30" start2="31" end2="32" changelist="1fa1b05c-4740-4622-bbe8-90ef32bab5c3" />
+        <range start1="73" end1="74" start2="75" end2="75" changelist="df754594-5f64-4adf-91c7-b22bff231e24" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/inno/jago/ast/SourceFileNode.java">
+      <ranges>
+        <range start1="2" end1="3" start2="2" end2="4" changelist="df754594-5f64-4adf-91c7-b22bff231e24" />
+        <range start1="6" end1="7" start2="7" end2="14" changelist="df754594-5f64-4adf-91c7-b22bff231e24" />
+        <range start1="9" end1="11" start2="16" end2="16" changelist="01ab3348-e718-42e3-89b9-5c210c11c931" />
+        <range start1="13" end1="14" start2="18" end2="19" changelist="df754594-5f64-4adf-91c7-b22bff231e24" />
+        <range start1="15" end1="16" start2="20" end2="21" changelist="df754594-5f64-4adf-91c7-b22bff231e24" />
+        <range start1="17" end1="18" start2="22" end2="23" changelist="df754594-5f64-4adf-91c7-b22bff231e24" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,23 +92,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/i.nafikov/IdeaProjects/jago-compiler",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "http.proxy",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/i.nafikov/IdeaProjects/jago-compiler&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -96,7 +150,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679335806186</updated>
-      <workItem from="1679335807645" duration="7067000" />
+      <workItem from="1679335807645" duration="8505000" />
+      <workItem from="1679344614688" duration="7546000" />
+      <workItem from="1679352177874" duration="1335000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init project">
       <created>1679336080477</created>
@@ -126,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679341614398</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chore: fixes">
+      <created>1679343456863</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679343456863</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +211,7 @@
     <MESSAGE value="feat: add parser files to project" />
     <MESSAGE value="feat: add maven" />
     <MESSAGE value="chore: add tokencode" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: add tokencode" />
+    <MESSAGE value="chore: fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: fixes" />
   </component>
 </project>

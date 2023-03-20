@@ -1,8 +1,9 @@
-package inno.jago.ast;
+package inno.jago.ast.entity;
 
 import inno.jago.lexer.Span;
 import inno.jago.lexer.Token;
 import lombok.Getter;
+import lombok.Setter;
 
 public class Entity
 {
@@ -71,5 +72,4 @@ public class Entity
         for ( int i=1; i<=20; i++ ) System.out.print(" ");
         System.out.println(title);
     }
-
 }

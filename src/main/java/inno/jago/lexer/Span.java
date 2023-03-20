@@ -3,14 +3,12 @@ package inno.jago.lexer;
 import lombok.Getter;
 import lombok.Setter;
 
+@Getter
+@Setter
 public class Span {
 
-    @Getter
-    @Setter
     private Pos begin;
 
-    @Getter
-    @Setter
     private Pos end;
 
     public Span(Pos b, Pos e) {

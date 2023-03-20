@@ -1,21 +1,18 @@
 package inno.jago.lexer;
 
-import inno.jago.ast.Entity;
+import inno.jago.ast.entity.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 @AllArgsConstructor
+@Getter
+@Setter
 public class Pos extends Entity {
 
-    @Getter
-    @Setter
     private long line;
 
-    @Getter
-    @Setter
     private int symbol;
-
 
     void report() {
         System.out.print(line + ":" + symbol);

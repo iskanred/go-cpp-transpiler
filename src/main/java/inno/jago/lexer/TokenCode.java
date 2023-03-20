@@ -82,6 +82,7 @@ public enum TokenCode {
     IMAGINARY_LIT(GoLexer.IMAGINARY_LIT),
     RUNE_LIT(GoLexer.RUNE_LIT),
     STRING_LIT(GoLexer.STRING_LIT);
+
     @Getter
     private final int value;
 }
