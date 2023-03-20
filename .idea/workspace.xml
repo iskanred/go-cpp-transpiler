@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df754594-5f64-4adf-91c7-b22bff231e24" name="Changes" comment="feat: init project">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/antlr4/inno/jago/GoLexer.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/antlr4/inno/jago/GoParser.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/BuildAstVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/GoLexerBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/ImportNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/PackageNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/Pos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/SourceFileNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/Span.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/inno/jago/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_10.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_11.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_12.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_13.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_14.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_15.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_16.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_17.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_7.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_8.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_9.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NHzTyWulsOvmlJD7w0t5FCoQq5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/i.nafikov/IdeaProjects/jago-compiler",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/antlr4/inno/jago" />
+      <recent name="$PROJECT_DIR$/src/main/java/inno/jago" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="inno.jago" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inno.jago.App" />
+      <module name="jago-compiler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inno.jago.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df754594-5f64-4adf-91c7-b22bff231e24" name="Changes" comment="" />
+      <created>1679335806186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679335806186</updated>
+      <workItem from="1679335807645" duration="736000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: init project">
+      <created>1679336080477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679336080477</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: init project" />
+  </component>
+</project>
