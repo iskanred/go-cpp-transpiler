@@ -4,46 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df754594-5f64-4adf-91c7-b22bff231e24" name="Changes" comment="feat: init project">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/antlr4/inno/jago/GoLexer.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/antlr4/inno/jago/GoParser.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/BuildAstVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/GoLexerBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/ImportNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/PackageNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/Pos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/SourceFileNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/Span.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/inno/jago/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_10.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_11.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_12.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_13.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_14.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_15.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_16.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_17.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_5.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_6.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_7.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_8.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tests/go_src_9.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="df754594-5f64-4adf-91c7-b22bff231e24" name="Changes" comment="feat: add maven">
+      <change afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/TokenCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample.go" beforeDir="false" afterPath="$PROJECT_DIR$/sample.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/ast/ImportNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/ImportNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inno/jago/ast/SourceFileNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inno/jago/ast/SourceFileNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679335806186</updated>
-      <workItem from="1679335807645" duration="736000" />
+      <workItem from="1679335807645" duration="5312000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init project">
       <created>1679336080477</created>
@@ -122,14 +100,41 @@
       <option name="project" value="LOCAL" />
       <updated>1679336080477</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: add parser files to project">
+      <created>1679336656555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679336656555</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add maven">
+      <created>1679336967793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679336967793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: init project" />
+    <MESSAGE value="feat: add parser files to project" />
+    <MESSAGE value="feat: add maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add maven" />
   </component>
 </project>

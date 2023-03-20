@@ -11,7 +11,9 @@ public class SourceFileNode {
 
     @Getter
     @Setter
-    private List<PackageNode> packages;
+    private PackageNode packageNode;
+
+//    private List<ImportNode>
 
 //    private List<r>
 
