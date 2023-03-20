@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @AllArgsConstructor
-public class PackageNode {
+public class PackageNode extends Entity {
     @Getter
     @Setter
     private String name;

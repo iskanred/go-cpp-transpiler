@@ -1,16 +1,24 @@
 package inno.jago.ast;
 
+import inno.jago.lexer.Span;
+import inno.jago.lexer.Token;
+import lombok.Getter;
+
 public class Entity
 {
-    public static final int shift = 4;
+    public static final int SHIFT = 4;
     public static boolean debug = false;
     public static boolean syntaxOnly = false;
     // All entities created by the program are assigned unique numbers.
     private static long count = 0;
     // Entity's unique number
-    public long unique;
+
+    @Getter
+    private final long uid;
     // Text coordinates of the entity
-    public Span span;
+
+    @Getter
+    private Span span;
 
     // // Tricks for resolving conflicts
     //
@@ -19,12 +27,13 @@ public class Entity
 
     // Machinery for reporting
     // Managing references to parent nodes
-    public Entity parent;
+    @Getter
+    private Entity parent;
 
     // Constructors
     public Entity() {
         count++;
-        unique = count;
+        uid = count;
     }
 
     public Entity(Span span) {
@@ -32,10 +41,10 @@ public class Entity
         this.span = span;
     }
 
-//    public Entity(Token token) {
-//        this();
-//        this.span = token.span;
-//    }
+    public Entity(Token token) {
+        this();
+        this.span = token.span;
+    }
 
     public static void doShift(int sh) {
         for (int i = 1; i <= sh; i++) {
@@ -44,7 +53,7 @@ public class Entity
     }
 
     public void outUnique() {
-        System.out.print(unique);
+        System.out.print(uid);
         System.out.print(":");
     }
 
@@ -54,9 +63,7 @@ public class Entity
         System.out.println(n);
     }
 
-    public void report(int sh) {
-
-    }
+    public void report(int sh) { }
 
     public static void reportParsing(String title)
     {

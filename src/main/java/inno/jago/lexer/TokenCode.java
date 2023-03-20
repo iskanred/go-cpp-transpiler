@@ -1,4 +1,4 @@
-package inno.jago.ast;
+package inno.jago.lexer;
 
 
 import inno.jago.GoLexer;

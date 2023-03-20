@@ -1,11 +1,10 @@
-package inno.jago.ast;
+package inno.jago.lexer;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-@AllArgsConstructor
 public class Span {
+
     @Getter
     @Setter
     private Pos begin;
@@ -14,9 +13,24 @@ public class Span {
     @Setter
     private Pos end;
 
+    public Span(Pos b, Pos e) {
+        begin = b;
+        end = e;
+    }
+
     public Span(Span span) {
         begin = span.begin;
         end = span.end;
+    }
+
+    public Span(Token token) {
+        begin = token.span.begin;
+        end = token.span.end;
+    }
+
+    public Span(Token b, Token e) {
+        begin = b.span.begin;
+        end = e.span.end;
     }
 
     public void report() {

@@ -1,6 +1,6 @@
 package inno.jago.ast;
 
-public class ImportNode {
+public class ImportNode extends Entity {
 
     private String path;
     private String alias;

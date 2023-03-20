@@ -4,10 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
-
 @AllArgsConstructor
-public class SourceFileNode {
+public class SourceFileNode extends Entity {
 
     @Getter
     @Setter
