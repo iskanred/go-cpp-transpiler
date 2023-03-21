@@ -4,7 +4,11 @@ import inno.jago.ast.entity.Entity;
 import lombok.Getter;
 import lombok.Setter;
 
+
+// FallthroughStmt = "fallthrough"
+
+// fallthroughStmt     :   FALLTHROUGH;
 @Getter
 @Setter
-public class BlockNode extends Entity {
+public class FallthroughNode extends Entity {
 }

@@ -2,6 +2,7 @@ package inno.jago.ast.declaration;
 
 import inno.jago.ast.entity.Entity;
 import inno.jago.ast.constant.ConstDeclarationNode;
+import inno.jago.ast.variable.VarDeclarationNode;
 import lombok.Getter;
 import lombok.Setter;
 

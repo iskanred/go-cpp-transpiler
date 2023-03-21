@@ -1,6 +1,6 @@
 package inno.jago.ast.declaration;
 
-import inno.jago.ast.BlockNode;
+import inno.jago.ast.StatementNode;
 import inno.jago.ast.entity.Entity;
 import inno.jago.ast.SignatureNode;
 import lombok.Getter;
@@ -16,9 +16,9 @@ public class FunctionDeclarationNode extends Entity {
 
     private SignatureNode signatureNode;
 
-    private BlockNode functionBody;
+    private StatementNode functionBody;
 
-    public FunctionDeclarationNode(String functionName, SignatureNode signatureNode, BlockNode functionBody) {
+    public FunctionDeclarationNode(String functionName, SignatureNode signatureNode, StatementNode functionBody) {
         this.functionName = functionName;
         this.signatureNode = signatureNode;
         this.functionBody = functionBody;

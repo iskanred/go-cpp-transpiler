@@ -1,6 +1,6 @@
 package inno.jago.ast.declaration;
 
-import inno.jago.ast.BlockNode;
+import inno.jago.ast.StatementNode;
 import inno.jago.ast.entity.Entity;
 import inno.jago.ast.SignatureNode;
 import inno.jago.ast.parameter.ParametersNode;
@@ -20,7 +20,7 @@ public class MethodDeclarationNode extends Entity {
     private ParametersNode parameters;
     private String methodName;
     private SignatureNode signature;
-    private BlockNode functionBody; // optional
+    private StatementNode functionBody; // optional
 
     public MethodDeclarationNode(ParametersNode parameters, String methodName, SignatureNode signature) {
         if (parameters == null) {
@@ -44,7 +44,7 @@ public class MethodDeclarationNode extends Entity {
         Entity.reportParsing("METHOD DECLARATION");
     }
 
-    public MethodDeclarationNode(ParametersNode parameters, String methodName, SignatureNode signature, BlockNode functionBody) {
+    public MethodDeclarationNode(ParametersNode parameters, String methodName, SignatureNode signature, StatementNode functionBody) {
         this(parameters, methodName, signature);
         if (functionBody != null) {
             this.functionBody = functionBody;

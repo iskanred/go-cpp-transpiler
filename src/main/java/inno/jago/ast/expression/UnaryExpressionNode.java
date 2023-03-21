@@ -3,6 +3,10 @@ package inno.jago.ast.expression;
 import lombok.Getter;
 import lombok.Setter;
 
+/*
+unaryExpr           :   primaryExpr | unary_op unaryExpr;
+ */
+
 @Getter
 @Setter
 public class UnaryExpressionNode extends ExpressionNode {
@@ -22,7 +26,7 @@ public class UnaryExpressionNode extends ExpressionNode {
         this.operator = operator;
         this.operand = operand;
 
-        this.operand.setParent(operand);
+        this.operand.setParent(this);
     }
 
 }

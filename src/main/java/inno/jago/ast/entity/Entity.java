@@ -29,6 +29,7 @@ public class Entity
     // Machinery for reporting
     // Managing references to parent nodes
     @Getter
+    @Setter
     private Entity parent;
 
     // Constructors
