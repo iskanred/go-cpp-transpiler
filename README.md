@@ -1,4 +1,4 @@
-# go-to-cpp-transpiler
+# go-cpp-transpiler
 
 ## Description
 This is the transpiler from **Go** source code to **C++** source code written on **Kotlin** with the use of **ANTLRv4**.
